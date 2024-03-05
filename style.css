@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgba(0, 255, 255, 0.171);
+}
+
+.conteudoPagina {
+    border: 1px solid;
+    padding: 80px;
+    border-radius: 20px;
+    background-color: aliceblue;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 1em;
+}
+
+.divInformacoes {
+    display: flex;
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+
+input{
+    font-size: 15px;
+    font-weight: 700;
+    padding-left: 10px;
+}
+
+button{
+    font-weight: 700;
+    color: aliceblue;
+    background-color: red;
+    font-size: 1em;
+    margin-top: 3em;
+    margin-left: 6em;
+    height: 3em;
+    width: 8em;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+button:hover {
+    opacity: 0.6;
+}
+button:active{
+    opacity: 0.8;
+}
+
+
+
+span{
+    font-size: 2em;
+    margin-top: 2em;
+    margin-left: 0.8em;
+}
+
